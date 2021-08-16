@@ -1,0 +1,35 @@
+Maximise the sum, 
+you will be given N intervals, where i’th interval will start at time Li and will be finished at Ri and contains the special value Ki, You have to select P intervals such that no intervals overlap each other and maximize the sum of special values of the selected P intervals.
+
+Constraints :-
+1<= N <= 10^5
+1<= P <= 10^2
+1<= N*P <= 10^6
+1<= Li , Ri <= 10^9
+1<=Ki <= 10^6
+
+Example :-
+
+consider N=3 and P=2 and 
+the intervals are
+1 3 10
+2 5 15
+5 7 6
+Here the answer is 16 , 
+as taking 1st and 3rd intervals 
+will be optimal
+
+Input Format :-
+first line contains N and P
+N lines follow 3 space separated 
+integers Li , Ri , Ki
+
+Sample Input
+3 2
+1 3 10
+2 5 15
+5 7 6
+
+Sample Output
+16
+
